@@ -1,0 +1,6 @@
+{
+  "ignore": ["*.min.js"],
+  "compact": false,
+  "presets": ["es2015", "react"]
+}
+
