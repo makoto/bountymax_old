@@ -21,7 +21,7 @@ fs.readdirSync("./build/contracts").forEach(function(file) {
 providedPlugins = new webpack.ProvidePlugin(provided)
 console.log('**providedPlugins', providedPlugins)
 module.exports = {
-  entry: './app/javascripts/app.js',
+  entry: './app/javascripts/index.js',
   output: {
     path: "./build",
     filename: 'app.js'
