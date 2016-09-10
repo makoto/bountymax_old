@@ -26,7 +26,7 @@ const App = (props) => (
         <Paper zDepth={1} style={{height:'500px'}}>
           <List>
             <ListItem disabled={true}
-              primaryText={(<p>Content</p>)}
+              primaryText={(<p>Content {props.contract.address}</p>)}
             />
           </List>
         </Paper>
